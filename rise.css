@@ -1,0 +1,41 @@
+/* Code cells — slightly smaller than body text */
+.reveal .cm-editor,
+.reveal .cm-editor .cm-content {
+    font-size: 1.1rem !important;
+    line-height: 1.5 !important;
+}
+
+/* Output areas (code output, tracebacks, etc.) */
+.reveal .jp-OutputArea pre,
+.reveal .jp-OutputArea-output {
+    font-size: 1.1rem !important;
+}
+
+/* Markdown / text cells */
+.reveal .jp-MarkdownCell .jp-RenderedHTMLCommon {
+    font-size: 1.4rem !important;
+}
+
+.reveal .jp-MarkdownCell .jp-RenderedHTMLCommon h1 { font-size: 2.2rem !important; }
+.reveal .jp-MarkdownCell .jp-RenderedHTMLCommon h2 { font-size: 1.9rem !important; }
+.reveal .jp-MarkdownCell .jp-RenderedHTMLCommon h3 { font-size: 1.6rem !important; }
+.reveal .jp-MarkdownCell .jp-RenderedHTMLCommon p,
+.reveal .jp-MarkdownCell .jp-RenderedHTMLCommon li { font-size: 1.4rem !important; }
+
+/* Tables */
+.reveal .jp-RenderedHTMLCommon table {
+    font-size: 1.3rem !important;
+    width: auto !important;
+    margin: 0 auto !important;
+}
+
+/* Images — centred */
+.reveal .jp-RenderedHTMLCommon img {
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.reveal .jp-OutputArea-output img {
+    display: block !important;
+    margin: 0 auto !important;
+}
