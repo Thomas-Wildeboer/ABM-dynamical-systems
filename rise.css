@@ -29,13 +29,17 @@
     margin: 0 auto !important;
 }
 
-/* Images — centred */
+/* Images — centred and large */
 .reveal .jp-RenderedHTMLCommon img {
     display: block !important;
     margin: 0 auto !important;
+    width: 85%;
+    height: auto !important;
 }
 
 .reveal .jp-OutputArea-output img {
     display: block !important;
     margin: 0 auto !important;
+    width: 85%;
+    height: auto !important;
 }
